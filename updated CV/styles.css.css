@@ -1,0 +1,91 @@
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.headline {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/*style for body text*/
+body {
+  font-family: "Courier New", monospace;
+  text-indent: 50px;
+  text-align: justify;
+  padding: 50px;
+}
+
+/* Style for the container */
+.gif-container {
+  text-align: center; /* Optional: Center the GIF */
+  margin-top: 30px; /* Optional: Add some space from the top */
+}
+
+/* Style for the GIF itself */
+.small-gif {
+  width: 250px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style that first letter! */
+.first-letter {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/*added a border around the paragraphs*/
+.paragraphs {
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 50;
+  margin-bottom: 15px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  margin: auto;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333; /* Set default color */
+}
+
+.social-icons a:hover {
+  color: #0073e6; /* Change color on hover */
+}
